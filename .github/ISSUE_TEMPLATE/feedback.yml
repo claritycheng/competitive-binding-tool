@@ -1,0 +1,17 @@
+name: 问题反馈与建议
+description: 分享使用问题、计算核对结果或功能建议
+body:
+  - type: markdown
+    attributes:
+      value: 免费使用，无需激活。也可发邮件到 501919931@qq.com。请勿公开未发表的实验数据；样例请匿名化。
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本与 Windows 版本
+  - type: textarea
+    id: details
+    attributes:
+      label: 问题或建议
+      description: 请提供操作步骤、输入单位、预期与实际结果。
+    validations:
+      required: true
